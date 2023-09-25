@@ -1,9 +1,11 @@
-n = int(input().strip())
-    if n%2 !=0:
-        print("Weird")
-    elif n%2 ==0 and n>2 and n<=5:
-        print("Not weird")
+  n = int(input().strip())
+    
+if n%2 !=0:
+      print("Weird")
+else:                      #Did not account for a new equations to make the code cleaner and work better
+    if n%2 ==0 and n>2 and n<=5:
+       print("Not Weird")
     elif n%2 ==0 and n>6 and n<=20:
-         print("Weird")
-    else:
-       print("Not weird")
+       print("Weird")
+    elif n>20:
+      print("Not Weird") #Did not account for 20
