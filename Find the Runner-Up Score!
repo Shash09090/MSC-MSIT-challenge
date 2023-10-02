@@ -1,0 +1,14 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    lis=list(arr)
+    lisi=[]
+    q = max(lis)
+    for i in lis:
+        if i>=q:
+            pass # lis.pop(lis.index(i))
+        else:
+            lisi.append(i)
+            
+    v = max(lisi)
+    print(v)
